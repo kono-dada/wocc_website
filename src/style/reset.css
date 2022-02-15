@@ -1,0 +1,30 @@
+.v-timeline-item__dot {
+    height: 15px;
+    width: 15px;
+}
+
+.v-timeline-item__dot .v-timeline-item__inner-dot{
+    height: 15px;
+    width: 15px;
+}
+
+.v-timeline::before {
+    height: unset;
+    top: 35px;
+    bottom: 20px;
+}
+
+p {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 17px;
+    color: #090909;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 400;
+    border-left: 5px solid #1d6194;
+    padding-left: 10px;
+}
+
+.gradient{
+    background:linear-gradient(to right, #d0d0d0, white , #d0d0d0 );
+}
